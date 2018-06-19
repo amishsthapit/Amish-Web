@@ -1,0 +1,11 @@
+E:\Projects\GIT-Personal\Amish-Web\Amish-Web\bin\Debug\netcoreapp2.0\Amish-Web.deps.json
+E:\Projects\GIT-Personal\Amish-Web\Amish-Web\bin\Debug\netcoreapp2.0\Amish-Web.runtimeconfig.json
+E:\Projects\GIT-Personal\Amish-Web\Amish-Web\bin\Debug\netcoreapp2.0\Amish-Web.runtimeconfig.dev.json
+E:\Projects\GIT-Personal\Amish-Web\Amish-Web\bin\Debug\netcoreapp2.0\Amish-Web.dll
+E:\Projects\GIT-Personal\Amish-Web\Amish-Web\bin\Debug\netcoreapp2.0\Amish-Web.pdb
+E:\Projects\GIT-Personal\Amish-Web\Amish-Web\obj\Debug\netcoreapp2.0\Amish-Web.csprojAssemblyReference.cache
+E:\Projects\GIT-Personal\Amish-Web\Amish-Web\obj\Debug\netcoreapp2.0\Amish-Web.csproj.CoreCompileInputs.cache
+E:\Projects\GIT-Personal\Amish-Web\Amish-Web\obj\Debug\netcoreapp2.0\Amish-Web.AssemblyInfoInputs.cache
+E:\Projects\GIT-Personal\Amish-Web\Amish-Web\obj\Debug\netcoreapp2.0\Amish-Web.AssemblyInfo.cs
+E:\Projects\GIT-Personal\Amish-Web\Amish-Web\obj\Debug\netcoreapp2.0\Amish-Web.dll
+E:\Projects\GIT-Personal\Amish-Web\Amish-Web\obj\Debug\netcoreapp2.0\Amish-Web.pdb
