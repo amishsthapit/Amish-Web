@@ -12662,23 +12662,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Amish\\.nuget\\packages\\": {},
+    "C:\\Users\\EKbana-Amish\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\GIT-Personal\\Amish-Web\\Amish-Web\\Amish-Web.csproj",
+      "projectUniqueName": "D:\\Projects\\GIT-Personal\\Amish-Web\\Amish-Web\\Amish-Web.csproj",
       "projectName": "Amish-Web",
-      "projectPath": "E:\\Projects\\GIT-Personal\\Amish-Web\\Amish-Web\\Amish-Web.csproj",
-      "packagesPath": "C:\\Users\\Amish\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\GIT-Personal\\Amish-Web\\Amish-Web\\obj\\",
+      "projectPath": "D:\\Projects\\GIT-Personal\\Amish-Web\\Amish-Web\\Amish-Web.csproj",
+      "packagesPath": "C:\\Users\\EKbana-Amish\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\GIT-Personal\\Amish-Web\\Amish-Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Amish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\EKbana-Amish\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
