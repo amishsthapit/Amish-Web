@@ -13,19 +13,10 @@ namespace Amish_CMS.Controllers
         public IActionResult Index()
         {
             return View();
-        }
+        }        
 
-        public IActionResult About()
+        public IActionResult ProfilePage()
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 
