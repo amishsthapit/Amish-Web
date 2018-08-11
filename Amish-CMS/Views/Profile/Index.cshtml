@@ -1,0 +1,110 @@
+﻿@model Amish_CMS.Models.ProfileSetting
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="content-header">
+    <h1>
+        Profile Setting       
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#"><i class="fa fa-user"></i> Profile Setting</a></li>
+        <li class="active">Edit</li>
+    </ol>
+
+    <div class="container box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">Edit</h3>
+        </div>
+        <form class="form-horizontal" asp-action="Index">
+            <input type="hidden" asp-for="Id" />
+            <div class="box-body">
+                <div class="form-group">
+                    <div class="col-sm-2"></div>
+                    <label class="col-sm-1 control-label">Name</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" id="name" placeholder="Name" asp-for="Name" required>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2"></div>
+                    <label class="col-sm-1 control-label">Title</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" id="title" placeholder="Title" asp-for="Title" required>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2"></div>
+                    <label class="col-sm-1 control-label">DOB</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" id="dob" placeholder="DOB" asp-for="Dob" required>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2"></div>
+                    <label class="col-sm-1 control-label">Email</label>
+                    <div class="col-sm-7">
+                        <input type="email" class="form-control" id="email" placeholder="Email" asp-for="Email" required>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2"></div>
+                    <label class="col-sm-1 control-label">About Me</label>
+                    <div class="col-sm-7">
+                        <textarea type="text" class="form-control" id="aboutme" placeholder="About Me" asp-for="Aboutme" required></textarea>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                @*<div class="form-group">
+                    <div class="col-sm-2"></div>
+                    <label class="col-sm-1 control-label">Cover Picture</label>
+                    <div class="col-sm-7">
+                        <input type="file" class="form-control" id="coverpic" required>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2"></div>
+                    <label class="col-sm-1 control-label">Profile Picture</label>
+                    <div class="col-sm-7">
+                        <input type="file" class="form-control" id="profilepic" required>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>*@
+                <div class="form-group">
+                    <div class="col-sm-2"></div>
+                    <label class="col-sm-1 control-label">Facebook Link</label>
+                    <div class="col-sm-7">
+                        <input type="url" class="form-control" id="fblink" placeholder="Facebook Link" asp-for="FacebookLink" required>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2"></div>
+                    <label class="col-sm-1 control-label">Linkedin Link</label>
+                    <div class="col-sm-7">
+                        <input type="url" class="form-control" id="linlink" placeholder="Linkedin Link" asp-for="LinkedinLink" required>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2"></div>
+                    <label class="col-sm-1 control-label">Instagram Link</label>
+                    <div class="col-sm-7">
+                        <input type="url" class="form-control" id="instalink" placeholder="Instagram Link" asp-for="InstagramLink" required>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+            <div class="box-footer">
+                <div class="col-sm-6"></div>
+                <button type="submit" class="btn btn-primary">Submit</button>                
+            </div>
+        </form>
+    </div>
+</section>
