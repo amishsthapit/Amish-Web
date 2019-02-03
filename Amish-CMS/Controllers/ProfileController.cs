@@ -13,10 +13,10 @@ namespace Amish_CMS.Controllers
 
         public IActionResult Index()
         {
-            ProfileSetting profileSetting = new ProfileSetting();
-            profileSetting = db.ProfileSetting.FirstOrDefault();                      
+            //ProfileSetting profileSetting = new ProfileSetting();
+            //profileSetting = db.ProfileSetting.FirstOrDefault();                      
 
-            return View(profileSetting);
+            return View();
         }
 
         [HttpPost]
